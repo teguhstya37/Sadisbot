@@ -10,43 +10,43 @@ import time,random,sys,json,codecs,threading,glob,urllib,urllib2,urllib3,re,subp
 
 
 cl = LINETCR.LINE()
-cl.login(token="EmYrKQOWwVujvhJ4Escd.47RkVqVs5RnD5ptDT6AfZq.6iWP7EDOg/PY4Notc37Ai8hXrPAWMqrBe/dKNid3+6c=")
+cl.login(token="EotMqktT8aRrwukfu3Ja.N+LYti3KClMMsBuvtSxvQG.awewtctvzec5plwY4N/rWFJyiz6PORMYXoSbYZ6m4Xs=")
 cl.loginResult()
 
 ki = LINETCR.LINE()
-ki.login(token="EmBhSKzTvEygq1I3q9a2.w39j/nEWC0t+UL75niLmqG.3kNs0uwQynoaKKfmm2XBNsRF9xmklG6zCGsS+7g622Y=")
+ki.login(token="EoM00BlhVI4vgai8AbO3.8r+Slzt0beyk4iHiu/0OuW.gb4WnByoFWzq88oIxdnpub1Z+71knmTga+Di3wu6MA8=")
 ki.loginResult()
 
 kk = LINETCR.LINE()
-kk.login(token="EmI0aOJfO9BdrGyQMMDc.kn016fwuFNSfSjmJxfhnha.IpDnc94MRftp6nY42n7GzCtuFRoGf5dyB8G6wHrjFWY=")
+kk.login(token="Eon6yMsYDXIlsWxR0vQ8.eXWLgEa9CXYdAGoxdm61ca.tkggX0Ivj/m7SOOIJVGJ4l6UzlrO6gthB3XJAptvlHM=")
 kk.loginResult()
 
 kc = LINETCR.LINE()
-kc.login(token="Emj5nU8BfFMNakzuooY1.9p8zXrfhrLmh174NoW6PGq.e+fttjoUc4G+e+3e4AFxkt9ibScPMmSeeUL1Gj/No7A=")
+kc.login(token=" EoYz3DSrHRrao39gOiO4.a3qPZS93sbZj9FWnff0Mva.Bhg6u/0oxVunCPdKhxhxuISiW5qdeK7tATT+AHD8vuQ=")
 kc.loginResult()
 
 kb = LINETCR.LINE()
-kb.login(token="Emmbby28VNq1gXBd3IH7.3hVg5XN6lZ7Ix1fGZIa6fW.sLboDUI7JtsBDesAkjWO6G+qlMMylMiTrFXSJTj83hg=")
+kb.login(token="Eoo2DgVlTVd8AJtIVrA9.NxCAzyWWRysNDCnhZ80Xgq.czYBtoNbXIZil5Ytz70L7r2aIVn6hhSUGHamYMNmvdk=")
 kb.loginResult()
 
 kd = LINETCR.LINE()
-kd.login(token="EmM9wsaBBoZUbxRUM9za.ASXSVcykGHrpTqYjZb0l2G.J6MzXxIFc4fykCd6PBWDwpd/yGh36tWFt6FYzwJlfEc=")
+kd.login(token="EopI8p2abz7ilTv4RRR5.qne+y9QVlogPct3udJTyPq.D1+5OSFRtTylKn79MIRVZhFmQsptvK6C8odpvY922HM=")
 kd.loginResult()
 
 ke = LINETCR.LINE()
-ke.login(token="Em9K46eRlQmUpqHD9HU3.7+EQA3K2ElJcbRqZDcciuW.ZChT7SCF0yy7iuOj6CNiQnStFc5sJx0uAmm2hmO6aSA=")
+ke.login(token="EopRRjlCiBFvULJIdAN9.+G7wbb031EobZHR7t7gEsq.V8Tv6yfGY3JGw4R0bY3Ygbm2LZUsTQ8ipBQqxN1/Ofk=")
 ke.loginResult()
 
 kg = LINETCR.LINE()
-kg.login(token="Em5DE85gOLmjwNfuWdF3.gdXRD5sg6uU3wk2zTTwXGW.c28QMgp8KN1i7pDP6JS9R6tfFlUEW0wH9gxpIcQiSKA=")
+kg.login(token="EoYHqJC0xU9MsjuWi7a3.yiniJlOTSPj+PnoMdtl7OW.+SOaBfwwOd+BLPNEK3l4u4E3l30lPmtipwy/rXQyGXw=")
 kg.loginResult()
 
 kh = LINETCR.LINE()
-kh.login(token="EmI0Ay9gcUVtqr3wihlc.cwogcSzbtJtLt+f0js39Ra.BrmS9c5E598BcK7ktnYGYYfS7HSqqbtC13OzcE7hFZw=")
+kh.login(token="EoUzs8ZEitEbuunnoHn4.XBTyKnPMZg/YHHSq8B0Qna.x+ypiJSnTH/U3g9P1KHIELMlrEUVBp/e0BW5v/6kyDE=")
 kh.loginResult()
 
 sw = LINETCR.LINE()
-sw.login(token="Emrjz9FYia0rd12nWIO5.IUzXOwoAXY7BzrgnW44oLq.QCzkBOLBBVk+S9+BUKbTV3i6ATR0jfnDwTxXO/CzDTo=")
+sw.login(token="Eopcjx9ZiJXYAa9o59wc.PO9j2y+hh4bctNdgQyF1ha.FrVtJF4ixTsDwGb9FlQMZRmkJI0vFh3mICiXqI8vq+A=")
 sw.loginResult()
 
 print u"login success"
@@ -55,38 +55,39 @@ sys.setdefaultencoding('utf-8')
 
 helpMessage ="""
 
-~~~~~~~~~~Gûñtûr_₱õèñ¥æ_§£êræ~~~~~~~~~~~~~
+~~~~~~~~~~🔰👻GHOST HUNTER👻🔰~~~~~~~~~~~~~
 
 
-              ✈ ̶̶̶✮卐D̶̶꙯꙯꙰꙰͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎E̶̶꙯꙯꙰꙰͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎S̶̶꙯꙯꙰꙰͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎T̶̶꙯꙯꙰꙰͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎R̶̶꙯꙯꙰꙰͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎O̶̶꙯꙯꙰꙰͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎Y̶̶꙯꙯꙰꙰͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎E̶̶꙯꙯꙰꙰͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎R̶̶꙯꙯꙰꙰͎͎͎͎͎͎͎͎͎͎͎͎͎͎S卐✮--✈
+              👻🔰GHOST HUNTER TEAM🔰👻
 
 
 
 ╔══════════════
-╠ 卐✮Ginfo 「View group info」
-╠ 卐✮Bot cancel 「Cancel all pending」
-╠ 卐✮Say 「Text」
-╠ 卐✮ Gn: 「Name group」
-╠ 卐✮ Mymid 「Cek your mid」
-╠ 卐✮Welcome on
-╠ 卐✮Welcome off
-╠ 卐✮ Lurkers
-╠ 卐✮View
-╠ 卐✮Creator
+╠ 🔰👻✮Ginfo👻🔰
+╠ 🔰👻✮Bot cancel👻🔰
+╠ 🔰👻✮Say 「Text」👻🔰
+╠ 🔰👻✮ Gn:「Name GC」👻🔰
+╠ 🔰👻✮Mymid「mid me」👻🔰
+╠ 🔰👻✮Welcome on👻🔰
+╠ 🔰👻✮Welcome off👻🔰
+╠ 🔰👻✮ Lurkers👻🔰
+|  🔰👻tikunganku👻🔰
+╠ 🔰👻✮View👻🔰
+╠ 🔰👻✮Creator👻🔰
 ╚═════════════
-
+  🔰👻GHOST HUNTER👻🔰
 ╔═════════════
 ╠ 🦂❧❥TD absen
 ╠ 🦂❧❥Say 「Text」
-╠ 🦂❧❥TD in 「All bot join」
-╠ 🦂❧❥TD out 「All bot leave」
+╠ 🦂❧❥TD in 「Alljoin」
+╠ 🦂❧❥TD out 「All leave」
 ╠ 🦂❧❥TD copy 「@」
 ╠ 🦂❧❥TD kembali 「@」
 ╠ 🦂❧❥TD kick 「Mid」
 ╠ 🦂❧❥TD invite 「Mid」
-╠ 🦂❧❥TD setting 「View bot setting」
+╠ 🦂❧❥TD setting 「View setting」
 ╠ 🦂❧❥TD bot 「Cek all bots」
-╠ 🦂❧❥TD cancel ,..「Cancel all pending」
+╠ 🦂❧❥TD cancel「Cancel all pending」
 ╠ 🦂❧❥TD link 「on / off」
 ╠ 🦂❧❥TD play 「Cleanse this group」
 ╠ 🦂❧❥Clearall 「Cleanse group」
@@ -126,17 +127,17 @@ helpMessage ="""
 ╠ 🦂❧❥╬═Mimic on/off
 ╠ 🦂❧❥╬═Mimic:add 「@」
 ╠ 🦂❧❥╬═Mimic:del 「@」
-╠ 🦂❧❥╬═Reject 「Cancel undanga]
-╠ 🦂❧❥╬═InviteMeTo:   [grob id]
-╠ 🦂❧❥╬═Invite      [invite member]
+╠ 🦂❧❥╬═Reject 「Cancel undangn]
+╠ 🦂❧❥╬═InviteMeTo:[group id]
+╠ 🦂❧❥╬═Invite [invite member]
 ╠ 🦂❧❥╬═TD leaveAllGc  
-╠ 🦂❧❥╬═Music   [jaran goyang]
-╠ 🦂❧❥╬═TD:Bc   [Bc taxt all contact]
+╠ 🦂❧❥╬═Music[jaran goyang]
+╠ 🦂❧❥╬═TD:Bc [Bc taxt all contact]
 ╚════════════
-      ❉  ❥ ❦ ❧B£æ¢k ò₣₣ Đ€štró¥ēr ❧ ❦  ❥ ❉ 
+      ❉  ❥ ❦ ❧🔰👻GHOT HUNTER👻🔰 ❧ ❦  ❥ ❉ 
 
 ╚════════════
-        ☞ http://line.me/ti/p/~gundul_gundul_pacul ___________________
+        ☞ 🔰👻GHOST👻🔰 ___________________
 penting...!!!: Atas comment member,
    Bawah comment admin & staff only
 ╚════════════"""
@@ -166,11 +167,11 @@ Fmid = ke.getProfile().mid
 Gmid = kg.getProfile().mid 
 Hmid = kh.getProfile().mid 
 Imid = sw.getProfile().mid 
-Bots = [mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid,"u0f3b4d62ba8de5b4cb83f71613c75be2","ue3bacabd0bd2e6b35de4f4ddb7a685cd","u5b7f49f8d7b07344ffba5ef934894c42","u28dd35e855947e7b05b093235c51cd1c","uf4ff19c51147465307d7be273b0ea981","u6acc6cbc260a82144fb50c89cc1d0bda","udc7bc6e719fa2f3ee25f5160ce203a17"]
-admin = ["u0f3b4d62ba8de5b4cb83f71613c75be2","u06856881c176ae1144cc757861d15056","ue3bacabd0bd2e6b35de4f4ddb7a685cd","udc7bc6e719fa2f3ee25f5160ce203a17","u5b7f49f8d7b07344ffba5ef934894c42","u70193ea1d746ef85b04145c758278e24"]
-staff = ["u0f3b4d62ba8de5b4cb83f71613c75be2","u06856881c176ae1144cc757861d15056"]
+Bots = [mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid,"u9ff9724c8de470b9a649b5154ec5d5aa","uf11fec2d94f404460ae0884853ed2853","u131c2519e03d731c836a03970cceb508","u037429cecf77481cc9f5fc0d145d2654","u9d771a658c30ad84a775c347cfcd3119","u40d13f63daaf2ce1a9093dd40e3b58a5","ufe0ed6041d37d5e381ce1afb4fb19e49","u6083488cba2db2927fa4d3a60d32fba3"]
+admin = ["u9ff9724c8de470b9a649b5154ec5d5aa","uf11fec2d94f404460ae0884853ed2853","u131c2519e03d731c836a03970cceb508","u037429cecf77481cc9f5fc0d145d2654","u9d771a658c30ad84a775c347cfcd3119","u40d13f63daaf2ce1a9093dd40e3b58a5","ufe0ed6041d37d5e381ce1afb4fb19e49","u6083488cba2db2927fa4d3a60d32fba3","uc5bb5890da66cc6fb2861b10f1bd2a34"]
+staff = ["u9ff9724c8de470b9a649b5154ec5d5aa","uf11fec2d94f404460ae0884853ed2853","u131c2519e03d731c836a03970cceb508","u037429cecf77481cc9f5fc0d145d2654"]
 owner = ["u0f3b4d62ba8de5b4cb83f71613c75be2"]
-adminMID = 'u0f3b4d62ba8de5b4cb83f71613c75be2','u06856881c176ae1144cc757861d15056'
+adminMID = 'u9ff9724c8de470b9a649b5154ec5d5aa','uf11fec2d94f404460ae0884853ed2853','u131c2519e03d731c836a03970cceb508','u037429cecf77481cc9f5fc0d145d2654','ua68f49d98fc71f80424e70c6a987f51c'
 wait ={ 
     'contact':False,
     'autoJoin':True,
@@ -178,9 +179,9 @@ wait ={
     'leaveRoom':False,
     'timeline':False,
     'autoAdd':False,
-    'message':"Thanks for add Created by gÛñtúr",
+    'message':"Thanks for add Created by Aa Yogi",
     "lang":"JP",
-    "comment":" ᴅᴏɴᴛ ᴋɪᴄᴋ ᴍᴇ ꜰʀᴏᴍ ɢʀᴏᴜᴘ•\n\nsᴜᴘᴘᴏʀᴛᴇᴅ ʙʏ:\n[☆] gûñtúr~~çãkrå [☆]\n[✯] thē_đëštr¥ër ",
+    "comment":" TEAM GHOST HUNTER•\n\nsKilers:\n[☆] Aa-Yogi [☆]\n[✯] thē_ghost hunter ",
     "likeOn":True,
     "commentOn":True,
     "commentBlack":{},
@@ -1254,7 +1255,7 @@ def bot(op):
         if op.type == 24:
             if wait["leaveRoom"] == True:
                 cl.leaveRoom(op.param1)
-        if op.type == 26:
+        if op.type == 25:
             msg = op.message
             if msg.toType == 0:
                 msg.to = msg.from_
@@ -1279,7 +1280,7 @@ def bot(op):
                 if op.param2 not in admin:
                         ki.kickoutFromGroup(op.param1,[op.param2])
                         ki.inviteIntoGroup(op.param1,[op.param3])
-        if op.type == 26:
+        if op.type == 25:
             msg = op.message
             if msg.contentType == 13:
             	if wait["TDinvite"] == True:
@@ -2345,7 +2346,7 @@ def bot(op):
                 else:md+="🔐 Protect cancel  →  off\n"
 		if wait["protectJoin"] == True: md+="🔐 Protectjoin → on\n"
 		else:md+="🔐 Protect join → off\n" 
-		cl.sendText(msg.to,md + "╚═════════════\n\n     🔐 Gûñtúr_₱ó€ñ¥a_§£êrå「😎」")
+		cl.sendText(msg.to,md + "╚═════════════\n\n     🔐 Aa_Yogi「😎」")
               else:
                   msg.contentType = 13
                   msg.contentMetadata = {"mid": msg.from_}
@@ -2537,7 +2538,7 @@ def bot(op):
                 cl.sendText(msg.to,"Your comment ⤵\n\n" + str(wait["comment"]))
             elif msg.text in ["Bot creator","Creator"]:
             	msg.contentType = 13
-                msg.contentMetadata = {'mid': 'u0f3b4d62ba8de5b4cb83f71613c75be2'}
+                msg.contentMetadata = {'mid': 'u9ff9724c8de470b9a649b5154ec5d5aa'}
                 cl.sendMessage(msg)
             elif msg.text in ["Gurl"]:
 	      if msg.from_ in admin:
