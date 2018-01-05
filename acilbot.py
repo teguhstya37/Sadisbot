@@ -6,125 +6,129 @@ from datetime import datetime
 import time,random,sys,re,os,json,subprocess,codecs,threading,glob
 
 cl = LINETCR.LINE() 
-cl.login(token="EmLrQghnrYdXWnHQZsm6.bOvOGCf2RHfeZhv4yDfqvG.LaP0K9Pj1X4spyPVL5MdTl7COZgUhMNZXATZ6ukWA+w=")
+cl.login(token="Eo6prDFvtLMuF924k7bb.XrxwUuAK1bO8HYgpO4a8oW.YkAVD009NCeJrknDUopIRdQRWN+xY3QBSgG2t9z7BVs=")
 cl.loginResult()
 
 ki = LINETCR.LINE() 
-ki.login(token="EmmGcrxfhFY0GdJiQ2af.Kz353gpKcZQaP61VxkPJRW.SRPBI1nwnzk8/smj+/naC1S5r/iUxoxeKQ5R9yB54NY=")
+ki.login(token="EoTO8o00bd0nGchuKH6f.HRVRDTlkvvzLmUyqThqcBW.ONSiiFpcOo0r/xETxF+yhmTrkIp1PoeoDc9okDJZQh8=")
 ki.loginResult()
 
 ki2 = LINETCR.LINE() 
-ki2.login(token="Em5mW1RDITaadySyhV1d.gcrtpjX9ttG/3GuSnu91hq.2oqI0Iq+J6o8FRGhwADPZKq/IfjRKd+oA+xClsJgJls=")
+ki2.login(token="EoBlJ9gzszRELNQDqLXd.NkZM91cgw4lG8Nk++lv1pq.mg5QbrjhwHUXEy2voB36lKGyXMeialVWxjfqFiAlAYg=")
 ki2.loginResult()
 
 ki3 = LINETCR.LINE() 
-ki3.login(token="EmGfbWtyESjacpTn0qic.vmETL4tOzbN0lOFYQJNH7a.bpLKHIDnv0zxcImKX59oA26HqNM7T1Pgw3a5dTphSMU=")
+ki3.login(token="EotdhYQA9QrNch4msqc8.iqzzfZ4f1+maCESNGAz/wa.WwCGhpAw/eDlBg49l4KtaYbfw474jZAcisRs7zWiKew=")
 ki3.loginResult()
 
 ki4 = LINETCR.LINE() 
-ki4.login(token="EmZcg3cPO26QiiLIxIe3.NV7maJdGfTfw0Vf9wIzxmW.D5xHrybqqXdjzvzsV6jOHcOpSdJ4iOpuP/biu1IedIY=")
+ki4.login(token="Eotc1fBihy8KZLGc0yq4.YzHwYUMccD1XY5ckzH4iba.+RQLF9po2eOVJUlFPkht2jPeOWa+hnvUolbex3RLTtM=")
 ki4.loginResult()
 
 ki5 = LINETCR.LINE() 
-ki5.login(token="EmgXcYfk3mQ0gS45NlS6.RLKtHU8IwCH/GF4IOYsEvG.fSj7NdT9WaTf2jXUqmP5cBtdnVDWvIvD/1fbk/5MWWU=")
+ki5.login(token="EoLkgcKT9FGfT2R7iaX5.rnNTb5YOIVZLSCHHreWebq.J9efzOJ0xQsuCNfFwkIZhWK6DM/aPmGUC1Jd9I31g/4=")
 ki5.loginResult()
 
 ki6 = LINETCR.LINE() 
-ki6.login(token="EmBgYZn2NwvHtd9z6WE8.yYzl5HPUb6HQZTeLiWyP/a.n9A3BCAuV/ciQ8yMgZj8JDPVvmnqNhqzwO+uzSm7TNI")
+ki6.login(token="EoHrbh3WwC3lTu6wqqD1.48mnSDzvyRVNAqC1Ku5yiq.tb8d6bfNMwFGJ/iE4t2aLlUmTuPmp6TFSE348lxvZtE=")
 ki6.loginResult()
 
 #ki4 = KITSUNEBOT.LINE()
-#ki4.login(token="Ekp9DIn7ZOF68PRT6NE2.ptORzz3sLbeG01QeTJsgeG.+43NBwiGAyx/HLhTUjf5hfcefo/pRN+IPs89ptqCQxQ=")
+#ki4.login(token="
 #ki4.loginResult()
 
 #ki5 = KITSUNEBOT.LINE()
-#ki5.login(token="EkZI8XiCp5ZTkYU29tC5.zNVivIokyd1dCo0dpANHvq.0LNZCi0tmVpGnI+hRRRA5P0wfU4xDv+PpBNcGYD0sY4=")
+#ki5.login(token="
 #ki5.loginResult()
 
 #ki6 = KITSUNEBOT.LINE()
-#ki6.login(token="EkJ5l49Apx6J60DHyfU4.tWI+bgToteDmanSLf3rEza.HEEAt8Hc5NEThS7g7tKGBL89uHYdJGZSOIc6N5deibQ=")
+#ki6.login(token="
 #ki6.loginResult()
 
 print "login success"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-helpMessage ="""       『⊰์◉⊱ᎢᎬᎪᎷ ᏴᏞᎪᏟᏦ ❂Ғ ᏀᎪᎷᎬᎡ⊰์◉⊱』
+helpMessage ="""       
+
+『⊰์◉⊱🔰👻 GHOST HUNTER👻🔰⊰์◉⊱』
+
+
 ❂••••••••••••••••••••••••••❂
 
-Me
-Add
-Cn "text"
-Clockname "text"
-TL:"text"
-Ban:"mid"
-Unban:"mid"
-Bl:on
-Unbl:on
-Mcheck
-Mybio:
-Mybots
-Mymid
-Mygroups
-Message set:"text"
-Message confirm
-Msg add-"text"
-Com set:"text"
-Comment
-Comban/del/cek
-Help set:"text"
-Change
-Gn "text"
-Clink/Curl
-Kick:"mid"
-Invite:"mid"
-All mid
-B:out
-B1-6 mid
-B1-6name "text"
-B1-6
-B1-6 gift
-B come
-B1-6 in
-B1-6 bye
-Creator
-Contact
-Cancel/Bcancel
-Gcancel:"jumlah"
-Gcancelall
-Ginfo
-Masukin dong
-Keluarin dong
-Setlastpoint
-Cctv
-Glink
-Spam "jumlah/text"
-Gurl
-All:
-Allbio:
-Sc:"mid"
-Blocklist
-Banlist
-Update
-Creator
-Sc "@"
-Fuck "@"
-Sikat "@"
-Ciduk "@"
-Bro "@"
-Bye "@"
-Ban "@" 
-Unban "@"
-Copy "@"
-Nuke
-Backup
-Ngen:tot/Tag
-Bc "text"
-Say "text"
-Kick@mbl "kick member blacklist"
+🔰👻Me
+🔰👻Add
+🔰👻Cn "text"
+🔰👻Clockname "text"
+🔰👻TL:"text"
+🔰👻Ban:"mid"
+🔰👻Unban:"mid"
+🔰👻Bl:on
+🔰👻Unbl:on
+🔰👻Mcheck
+🔰👻Mybio:
+🔰👻Mybots
+🔰👻Mymid
+🔰👻Mygroups
+🔰👻Message set:"text"
+🔰👻Message confirm
+🔰👻Msg add-"text"
+🔰👻Com set:"text"
+🔰👻Comment
+🔰👻Comban/del/cek
+🔰👻Help set:"text"
+🔰👻Change
+🔰👻Gn "text"
+🔰👻Clink/Curl
+🔰👻Kick:"mid"
+🔰👻Invite:"mid"
+🔰👻All mid
+🔰👻B:out
+🔰👻B1-6 mid
+🔰👻B1-6name "text"
+🔰👻B1-6
+🔰👻B1-6 gift
+🔰👻B come
+🔰👻B1-6 in
+🔰👻B1-6 bye
+🔰👻Creator
+🔰👻Contact
+🔰👻Cancel/Bcancel
+🔰👻Gcancel:"jumlah"
+🔰👻Gcancelall
+🔰👻Ginfo
+🔰👻Ghost join
+🔰👻Ghost bye
+🔰👻Setlastpoint
+🔰👻Cctv
+🔰👻Glink
+🔰👻Spam "jumlah/text"
+🔰👻Gurl
+🔰👻All:
+🔰👻Allbio:
+🔰👻Sc:"mid"
+🔰👻Blocklist
+🔰👻Banlist
+🔰👻Update
+🔰👻Creator
+🔰👻Sc "@"
+🔰👻Fuck "@"
+🔰👻Sikat "@"
+🔰👻Ciduk "@"
+🔰👻Bro "@"
+🔰👻Bye "@"
+🔰👻Ban "@" 
+🔰👻Unban "@"
+🔰👻Copy "@"
+🔰👻Nuke
+🔰👻Backup
+🔰👻Yank:Crot/Tag
+🔰👻Bc "text"
+🔰👻Say "text"
+🔰👻Kick@mbl "kick member blacklist"
 
 
-========SETTING BOTS=========
+=====🔰GHOST SETING🔰======
 
 Contact:on/off
 Add:on/off
@@ -143,7 +147,7 @@ Procancel:on/off
 
 ❂••••••••••••••••••••••••••❂
 """
-helo="====I AM SELFBOT TEAM BLACK OF GAMER"
+helo="===🔰👻GHOST HUNTER👻🔰"
 
 KAC=[cl,ki,ki2,ki3,ki4,ki5,ki6]
 mid = cl.getProfile().mid
@@ -155,7 +159,7 @@ ki5mid = ki5.getProfile().mid
 ki5mid = ki5.getProfile().mid
 ki6mid = ki6.getProfile().mid
 Bots=[mid,kimid,ki2mid,ki3mid,ki4mid,ki5mid,ki6mid]
-admsa = "u06856881c176ae1144cc757861d15056"
+admsa = "uc515d6b946a4d41a3c87218fa3803c3b"
 
 wait = {
     'contact':False,
@@ -165,8 +169,8 @@ wait = {
     'timeline':False,
     'autoAdd':True,
     'message':"""❂••••••••AUTO ADD BY•••••••❂
-                  https://line.me/R/ti/p/%40iya4481p
-『⊰์◉⊱ᎢᎬᎪᎷ ᏴᏞᎪᏟᏦ ❂Ғ ᏀᎪᎷᎬᎡ⊰์◉⊱』""",
+                  
+『⊰์◉⊱GHOST HUNTER⊰์◉⊱』""",
     "lang":"JP",
     "comment":"Thanks For Add Me",
     "commentOn":False,
@@ -251,7 +255,7 @@ def bot(op):
         if op.type == 24:
             if wait["leaveRoom"] == True:
                 cl.leaveRoom(op.param1)
-        if op.type == 26:
+        if op.type == 25:
             msg = op.message
             if msg.toType == 0:
                 msg.to = msg.from_
@@ -958,7 +962,7 @@ def bot(op):
                 cl.sendMessage(msg)
             elif cms(msg.text,["Add"]):
                 msg.contentType = 13
-                msg.contentMetadata = {'mid': 'u5818cb4404411c2e2e6e6937d172cca8'}
+                msg.contentMetadata = {'mid': 'uc515d6b946a4d41a3c87218fa3803c3b'}
                 cl.sendText(msg.to,"􂤁􀆋down􏿿􂤁􀆋down􏿿􂤁􀆋down􏿿􂤁􀆋down􏿿􂤁􀆋down􏿿􂤁􀆋down􏿿􂤁􀆋down􏿿")
                 cl.sendMessage(msg)
                 cl.sendText(msg.to,"􂤁􀆊up􏿿􂤁􀆊up􏿿􂤁􀆊up􏿿􂤁􀆊up􏿿􂤁􀆊up􏿿􂤁􀆊up􏿿􂤁􀆊up􏿿")
@@ -2234,7 +2238,7 @@ def bot(op):
                                 ki2.sendText(msg,to,"Nuke Succes Bos")
 #-------------------- = NUKE FINISH = ----------------------------- 
 #-------------Fungsi Tagall User Start---------------#
-            elif msg.text in ["Dor","Ngen:tot","Yank","Tot","Crot","Tag"]:
+            elif msg.text in ["Dor","Nong","Yank","Tot","Crot","Tag"]:
                 group = cl.getGroup(msg.to)
                 nama = [contact.mid for contact in group.members]
                 cb = ""
@@ -2317,7 +2321,7 @@ def bot(op):
                 ki6.sendText(msg.to, "%sseconds" % (elapsed_time))
 
 #-----------------------------------------------
-            elif msg.text.lower() == 'masukin dong':
+            elif msg.text.lower() == 'Ghost join':
                         G = cl.getGroup(msg.to)
                         ginfo = cl.getGroup(msg.to)
                         G.preventJoinByTicket = False
@@ -2479,7 +2483,7 @@ def bot(op):
                         G.preventJoinByTicket(G)
                         ki6.updateGroup(G)
 #-----------------------------------------------
-            elif msg.text.lower() == 'keluarin dong':
+            elif msg.text.lower() == 'Ghost bye':
                 if msg.toType == 2:
                     ginfo = cl.getGroup(msg.to)
                     try:
