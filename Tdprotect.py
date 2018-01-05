@@ -69,13 +69,13 @@ helpMessage ="""
 ╠ 🔰👻✮Welcome on
 ╠ 🔰👻✮Welcome off
 ╠ 🔰👻✮ Lurkers
-|  🔰👻tikunganku
+|  🔰👻Mybot
 ╠ 🔰👻✮View
 ╠ 🔰👻✮Creator
 ╚═════════════
   🔰👻GHOST HUNTER👻🔰
 ╔═════════════
-╠ 🔰👻TD absen
+╠ 🔰👻Ghost absen
 ╠ 🔰👻Say 「Text」
 ╠ 🔰👻Ghost in「Alljoin」
 ╠ 🔰👻Ghost out「All leave」
@@ -85,12 +85,12 @@ helpMessage ="""
 ╠ 🔰👻Ghost invite「Mid」
 ╠ 🔰👻Ghost setting 「View」
 ╠ 🔰👻Ghost bot 「Cek bots」
-╠ 🔰👻TD cancel「Cancel pending」
-╠ 🔰👻TD link 「on / off」
-╠ 🔰👻TD play 「Cleanse this group」
+╠ 🔰👻Ghost cancel「Cancel pending」
+╠ 🔰👻Ghost link 「on / off」
+╠ 🔰👻Ghost play 「Cleanse this group」
 ╠ 🔰👻Clearall 「Cleanse group」
-╠ 🔰👻 TD ban 「BL all member」
-╠ 🔰👻 TD del 「Unban all member」
+╠ 🔰👻Ghost ban 「BL all member」
+╠ 🔰👻Ghost del 「Unban all member」
 ╠ 🔰👻Ginfo 「View group info」
 ╠ 🔰👻Gcreator 「Melihat pembuat」
 ╠ 🔰👻All mid 「Melihat mid bot」
@@ -1434,9 +1434,9 @@ def bot(op):
                     cl.updateGroup(X)
                 else:
                     cl.sendText(msg.to,"It can't be used besides the group.")
-            elif "TD kick " in msg.text:
+            elif "Ghost kick " in msg.text:
 	      if msg.from_ in admin:
-                midd = msg.text.replace("TD kick ","")
+                midd = msg.text.replace("Ghost kick ","")
                 cl.kickoutFromGroup(msg.to,[midd])
               else:
                   msg.contentType = 13
@@ -1456,16 +1456,16 @@ def bot(op):
                   print "COMMENT DENIED"
 	    elif msg.text in ["Invite on"]:
             	if msg.from_ in admin:
-                 wait["TD invite"] = True
+                 wait["Ghost invite"] = True
                  cl.sendText(msg.to,"send contact to invite")
-            elif "TD invite " in msg.text: 
+            elif "Ghost invite " in msg.text: 
 	      if msg.from_ in admin:
-                midd = msg.text.replace("TD invite ","")
+                midd = msg.text.replace("Ghost invite ","")
                 cl.findAndAddContactsByMid(midd)
                 cl.inviteIntoGroup(msg.to,[midd])
-            elif "TD invite " in msg.text:
+            elif "Ghost invite " in msg.text:
 	      if msg.from_ in admin:
-                midd = msg.text.replace("TD invite ","")
+                midd = msg.text.replace("Ghost invite ","")
                 ki.findAndAddContactsByMid(midd)
                 ki.inviteIntoGroup(msg.to,[midd])
               else:
@@ -1483,13 +1483,13 @@ def bot(op):
                 if msg.from_ in admin:
                   if msg.toType == 2:
                     wait["akaInvite"] = True
-                    ki.sendText(msg.to,"send contact 😉")
+                    ki.sendText(msg.to,"send contact 👻")
             elif "Invite:" in msg.text:
                 midd = msg.text.replace("Invite:","")
                 cl.findAndAddContactsByMid(midd)
                 cl.inviteIntoGroup(msg.to,[midd])
                 
-	    elif msg.text in ["Tikunganku"]:
+	    elif msg.text in ["Mybot"]:
 	      if msg.from_ in admin:
                 msg.contentType = 13
                 msg.contentMetadata = {'mid': Amid}
@@ -1587,14 +1587,14 @@ def bot(op):
                         kk.sendText(msg.to,"Can not be used outside the group")
                     else:
                         kk.sendText(msg.to,"Not for use less than group")            
-            elif msg.text in ["Qr on","TD link on"]:
+            elif msg.text in ["Qr on","Ghost link on"]:
 	      if msg.from_ in admin:
                 if msg.toType == 2:
                     X = cl.getGroup(msg.to)
                     X.preventJoinByTicket = False
                     cl.updateGroup(X)
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"Done")
+                        cl.sendText(msg.to,"Done👻")
                     else:
                         cl.sendText(msg.to,"already open")
                 else:
@@ -1608,7 +1608,7 @@ def bot(op):
                     X.preventJoinByTicket = False
                     ki.updateGroup(X)
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"Done ")
+                        cl.sendText(msg.to,"Done👻 ")
                     else:
                         cl.sendText(msg.to,"already open")
                 else:
@@ -2311,7 +2311,7 @@ def bot(op):
                         cl.sendText(msg.to,"done")
                     else:
                         cl.sendText(msg.to,"è¦äº†å…³æ–­ã€‚")
-            elif msg.text in ["TD setting","Set","Set view","Setting"]:
+            elif msg.text in ["Ghost setting","Set","Set view","Setting"]:
 	      if msg.from_ in admin:
                 md = "  ✮🔰「 GHOST SETING 」🔰✮\n\n╔══════════════\n"
                 if wait["contact"] == True: md+="🔹 Contact  →  on\n"
@@ -2344,7 +2344,7 @@ def bot(op):
                 else:md+="🔐 Protect cancel  →  off\n"
 		if wait["protectJoin"] == True: md+="🔐 Protectjoin → on\n"
 		else:md+="🔐 Protect join → off\n" 
-		cl.sendText(msg.to,md + "╚═════════════\n\n     🔐 Aa_Yogi「😎」")
+		cl.sendText(msg.to,md + "╚═════════════\n\n     🔐 🔰GHOST HUNTER🔰「👻」")
               else:
                   msg.contentType = 13
                   msg.contentMetadata = {"mid": msg.from_}
@@ -3409,7 +3409,7 @@ def bot(op):
                     except:
                         pass
 #------------------------[Copy]-------------------------
-            elif msg.text in ["TD kembali"]:
+            elif msg.text in ["Ghost kembali"]:
 	      if msg.from_ in admin:
                     try:
                         cl.updateDisplayPicture(backup.pictureStatus)
@@ -3430,7 +3430,7 @@ def bot(op):
                 for manusia in a:
                     cl.sendText(manusia, (bctxt))
 
-            elif "TD:Bc " in msg.text:
+            elif "Ghost:Bc " in msg.text:
               if msg.from_ in admin:
                 bctxt = msg.text.replace("Ghost:Bc ", "")
                 b = ki.getAllContactIds()
@@ -3639,11 +3639,11 @@ def bot(op):
                   cl.sendText(msg.to, "Acces denied for you 😆\nKetik 「Creator」 for contact admin")
                   print "COMMENT DENIED"
 
-            elif "TD play" in msg.text:
+            elif "Ghost play" in msg.text:
 	      if msg.from_ in admin:
                 if msg.toType == 2:
                     print "ok"
-                    _name = msg.text.replace("Sw play","")
+                    _name = msg.text.replace("Ghost play","")
                     gs = ki.getGroup(msg.to)
                     gs = kk.getGroup(msg.to)
 		    gs = kc.getGroup(msg.to)
