@@ -58,81 +58,81 @@ helpMessage ="""
 ~~~~~~~~~~🔰👻GHOST HUNTER👻🔰~~~~~~~~~~~~~
 
 
-              👻🔰GHOST HUNTER TEAM🔰👻
+        👻🔰GHOST HUNTER TEAM🔰👻
 
 
 
 ╔══════════════
-╠ 🔰👻✮Ginfo👻🔰
-╠ 🔰👻✮Bot cancel👻🔰
-╠ 🔰👻✮Say 「Text」👻🔰
-╠ 🔰👻✮ Gn:「Name GC」👻🔰
-╠ 🔰👻✮Mymid「mid me」👻🔰
-╠ 🔰👻✮Welcome on👻🔰
-╠ 🔰👻✮Welcome off👻🔰
-╠ 🔰👻✮ Lurkers👻🔰
-|  🔰👻tikunganku👻🔰
-╠ 🔰👻✮View👻🔰
-╠ 🔰👻✮Creator👻🔰
+╠ 🔰👻✮Ginfo
+╠ 🔰👻✮Botcancel
+╠ 🔰👻✮Say「Text」
+╠ 🔰👻✮ Gn:「Name GC
+╠ 🔰👻✮Mymid「mid me」
+╠ 🔰👻✮Welcome on
+╠ 🔰👻✮Welcome off
+╠ 🔰👻✮ Lurkers
+|  🔰👻tikunganku
+╠ 🔰👻✮View
+╠ 🔰👻✮Creator
 ╚═════════════
   🔰👻GHOST HUNTER👻🔰
 ╔═════════════
-╠ 🦂❧❥TD absen
-╠ 🦂❧❥Say 「Text」
-╠ 🦂❧❥TD in 「Alljoin」
-╠ 🦂❧❥TD out 「All leave」
-╠ 🦂❧❥TD copy 「@」
-╠ 🦂❧❥TD kembali 「@」
-╠ 🦂❧❥TD kick 「Mid」
-╠ 🦂❧❥TD invite 「Mid」
-╠ 🦂❧❥TD setting 「View setting」
-╠ 🦂❧❥TD bot 「Cek all bots」
-╠ 🦂❧❥TD cancel「Cancel all pending」
-╠ 🦂❧❥TD link 「on / off」
-╠ 🦂❧❥TD play 「Cleanse this group」
-╠ 🦂❧❥Clearall 「Cleanse group」
-╠ 🦂❧❥ TD ban 「Blacklist all member」
-╠ 🦂❧❥ TD del 「Unblacklist all member」
-╠ 🦂❧❥Ginfo 「View group info」
-╠ 🦂❧❥Gcreator 「Melihat pembuat grup」
-╠ 🦂❧❥All mid 「Melihat mid bot」
-╠ 🦂❧❥Mymid 「Melihat mid sndiri」
-╠ 🦂❧❥Gift 「Gift1,Gift2,Gift3」
-╠ 🦂❧❥Spam「on / off」1\ Text
-╠ 🦂❧❥Creator 「Cek pembuat bot」
-╠ 🦂❧❥Gurl 「View group link」
-╠ 🦂❧❥Mentions 「Tag all member」
-╠ 🦂❧❥All: 「Rename all bot」
-╠ 🦂❧❥Allbio: 「Change all bio bot」
-╠ 🦂❧❥Mid 「@」
-╠ 🦂❧❥Bc: 「Text」
-╠ 🦂❧❥Admin on/off 「@」
-╠ 🦂❧❥ List admin
-╠ 🦂❧❥Spam to 「@」
-╠ 🦂❧❥ Speed
-╠ 🦂❧❥Respon
-╠ 🦂❧❥Lurkers
-╠ 🦂❧❥View
-╠ 🦂❧❥Fuck
-╠ 🦂❧❥Sayang 「@」
-╠ 🦂❧❥Mk「@」
-╠ 🦂❧❥Nk 「@」
-╠ 🦂❧❥Ban 「@」
-╠ 🦂❧❥Unban「@」
-╠ 🦂❧❥Cipok 「@」
-╠ 🦂❧❥Ban:on「Send contact」
-╠ 🦂❧❥Unban:on 「Send Contact」
-╠ 🦂❧❥Banlist
-╠ 🦂❧❥Kick ban 
-╠ 🦂❧❥╬═Mimic on/off
-╠ 🦂❧❥╬═Mimic:add 「@」
-╠ 🦂❧❥╬═Mimic:del 「@」
-╠ 🦂❧❥╬═Reject 「Cancel undangn]
-╠ 🦂❧❥╬═InviteMeTo:[group id]
-╠ 🦂❧❥╬═Invite [invite member]
-╠ 🦂❧❥╬═TD leaveAllGc  
-╠ 🦂❧❥╬═Music[jaran goyang]
-╠ 🦂❧❥╬═TD:Bc [Bc taxt all contact]
+╠ 🔰👻TD absen
+╠ 🔰👻Say 「Text」
+╠ 🔰👻TD in「Alljoin」
+╠ 🔰👻TD out「All leave」
+╠ 🔰👻TD copy 「@」
+╠ 🔰👻TD kembali 「@」
+╠ 🔰👻TD kick 「Mid」
+╠ 🔰👻TD invite 「Mid」
+╠ 🔰👻TD setting 「View」
+╠ 🔰👻TD bot 「Cek bots」
+╠ 🔰👻TD cancel「Cancel pending」
+╠ 🔰👻TD link 「on / off」
+╠ 🔰👻TD play 「Cleanse this group」
+╠ 🔰👻Clearall 「Cleanse group」
+╠ 🔰👻 TD ban 「BL all member」
+╠ 🔰👻 TD del 「Unban all member」
+╠ 🔰👻Ginfo 「View group info」
+╠ 🔰👻Gcreator 「Melihat pembuat」
+╠ 🔰👻All mid 「Melihat mid bot」
+╠ 🔰👻Mymid 「mid sndiri」
+╠ 🔰👻Gift 「Gift1,Gift2,Gift3」
+╠ 🔰👻Spam「on / off」1\ Text
+╠ 🔰👻Creator 「Cek pembuat bot」
+╠ 🔰👻Gurl 「View group link」
+╠ 🔰👻Mentions 「Tag all member」
+╠ 🔰👻All: 「Rename all bot」
+╠ 🔰👻Allbio: 「Change all bio bot」
+╠ 🔰👻Mid 「@」
+╠ 🔰👻Bc: 「Text」
+╠ 🔰👻Admin on/off 「@」
+╠ 🔰👻 List admin
+╠ 🔰👻Spam to 「@」
+╠ 🔰👻 Speed
+╠ 🔰👻Respon
+╠ 🔰👻Lurkers
+╠ 🔰👻View
+╠ 🔰👻Fuck
+╠ 🔰👻Sayang 「@」
+╠ 🔰👻Mk「@」
+╠ 🔰👻Nk 「@」
+╠ 🔰👻Ban 「@」
+╠ 🔰👻Unban「@」
+╠ 🔰👻Cipok 「@」
+╠ 🔰👻Ban:on「Send contact」
+╠ 🔰👻Unban:on「Send Contact」
+╠ 🔰👻Banlist
+╠ 🔰👻Kick ban 
+╠ 🔰👻╬═Mimic on/off
+╠ 🔰👻╬═Mimic:add 「@」
+╠ 🔰👻╬═Mimic:del 「@」
+╠ 🔰👻╬═Reject「Cancel undangn]
+╠ 🔰👻╬═InviteMeTo:[group id]
+╠ 🔰👻╬═Invite [invite mmber]
+╠ 🔰👻╬═TD leaveAllGc  
+╠ 🔰👻╬═Music[jaran goyang]
+╠ 🔰👻╬═TD:Bc [Bc taks all]
 ╚════════════
       ❉  ❥ ❦ ❧🔰👻GHOT HUNTER👻🔰 ❧ ❦  ❥ ❉ 
 
@@ -145,7 +145,7 @@ penting...!!!: Atas comment member,
 helpMessage1 ="""  *** Set Group ***
 
 ╔════════════
-╠🔐 Auto cancel 「on / off」
+╠🔐 Auto cancel「on / off」
 ╠🔐 Contact 「on / off」
 ╠🔐 Allprotect 「on / off」
 ╠🔐 Auto like 「on / off」
