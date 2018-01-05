@@ -55,12 +55,10 @@ sys.setdefaultencoding('utf-8')
 
 helpMessage ="""
 
-~~~~~~~~~~🔰👻GHOST HUNTER👻🔰~~~~~~~~~~~~~
+~~~🔰👻GHOST HUNTER👻🔰~~~
 
 
-        👻🔰GHOST HUNTER TEAM🔰👻
-
-
+👻🔰GHOST HUNTER TEAM🔰👻
 
 ╔══════════════
 ╠ 🔰👻✮Ginfo
@@ -79,14 +77,14 @@ helpMessage ="""
 ╔═════════════
 ╠ 🔰👻TD absen
 ╠ 🔰👻Say 「Text」
-╠ 🔰👻TD in「Alljoin」
-╠ 🔰👻TD out「All leave」
-╠ 🔰👻TD copy 「@」
-╠ 🔰👻TD kembali 「@」
-╠ 🔰👻TD kick 「Mid」
-╠ 🔰👻TD invite 「Mid」
-╠ 🔰👻TD setting 「View」
-╠ 🔰👻TD bot 「Cek bots」
+╠ 🔰👻Ghost in「Alljoin」
+╠ 🔰👻Ghost out「All leave」
+╠ 🔰👻Ghost copy 「@」
+╠ 🔰👻Ghost kembali 「@」
+╠ 🔰👻Ghost kick「Mid」
+╠ 🔰👻Ghost invite「Mid」
+╠ 🔰👻Ghost setting 「View」
+╠ 🔰👻Ghost bot 「Cek bots」
 ╠ 🔰👻TD cancel「Cancel pending」
 ╠ 🔰👻TD link 「on / off」
 ╠ 🔰👻TD play 「Cleanse this group」
@@ -114,7 +112,7 @@ helpMessage ="""
 ╠ 🔰👻Lurkers
 ╠ 🔰👻View
 ╠ 🔰👻Fuck
-╠ 🔰👻Sayang 「@」
+╠ 🔰👻Sayang「@」
 ╠ 🔰👻Mk「@」
 ╠ 🔰👻Nk 「@」
 ╠ 🔰👻Ban 「@」
@@ -134,13 +132,13 @@ helpMessage ="""
 ╠ 🔰👻╬═Music[jaran goyang]
 ╠ 🔰👻╬═TD:Bc [Bc taks all]
 ╚════════════
-      ❉  ❥ ❦ ❧🔰👻GHOT HUNTER👻🔰 ❧ ❦  ❥ ❉ 
+❧🔰👻GHOT HUNTER👻🔰 ❧
 
 ╚════════════
-        ☞ 🔰👻GHOST👻🔰 ___________________
+    🔰👻GHOST👻🔰
 penting...!!!: Atas comment member,
-   Bawah comment admin & staff only
-╚════════════"""
+ Bawah comment admin & staff only
+ ╚════════════"""
 
 helpMessage1 ="""  *** Set Group ***
 
@@ -2315,7 +2313,7 @@ def bot(op):
                         cl.sendText(msg.to,"è¦äº†å…³æ–­ã€‚")
             elif msg.text in ["TD setting","Set","Set view","Setting"]:
 	      if msg.from_ in admin:
-                md = "  卐✮ 「 S͞e͞t͞t͞i͞n͞g͞ B͞oт 」卐✮\n\n╔══════════════\n"
+                md = "  ✮🔰「 GHOST SETING 」🔰✮\n\n╔══════════════\n"
                 if wait["contact"] == True: md+="🔹 Contact  →  on\n"
                 else: md+="🔹 Contact  →  off\n"
                 if wait["autoJoin"] == True: md+="🔹 Auto join  →  on\n"
@@ -3058,9 +3056,9 @@ def bot(op):
                     cl.sendText(msg.to,mc)
                     print "[Command]Stafflist executed"
 #-------------------------------------------------------------------------------
-	    elif "Eeaa " in msg.text:
+	    elif "Dorr " in msg.text:
                   if msg.from_ in admin:
-		       nk0 = msg.text.replace("Eeaa ","")
+		       nk0 = msg.text.replace("Dorr ","")
                        nk1 = nk0.lstrip()
                        nk2 = nk1.replace("@","")
                        nk3 = nk2.rstrip()
@@ -3131,7 +3129,7 @@ def bot(op):
                                     kk.sendText(msg.to,"Bye")
 
 #-----------------------------------------------                   
-            elif msg.text in ["TD in"]:
+            elif msg.text in ["Ghost in"]:
 	      if msg.from_ in admin:
                         G = cl.getGroup(msg.to)
                         ginfo = cl.getGroup(msg.to)
@@ -3160,7 +3158,7 @@ def bot(op):
                         cl.updateGroup(G)
                         print "kicker ok"
 
-            elif msg.text in ["TD 1"]:
+            elif msg.text in ["Ghost 1"]:
 	      if msg.from_ in admin:
                   X = cl.getGroup(msg.to)
                   X.preventJoinByTicket = False
@@ -3331,7 +3329,7 @@ def bot(op):
                    cl.sendText(msg.to, "Acces denied for you 😊\nKetik 「Creator」for contact admin")
 
 #-----------------------------------------------
-	    elif msg.text in ["TD all out"]:
+	    elif msg.text in ["Ghost all out"]:
                 gid = cl.getGroupIdsJoined()
                 gid = ki.getGroupIdsJoined()
                 gid = kk.getGroupIdsJoined()
@@ -3355,7 +3353,7 @@ def bot(op):
                 else:
                     cl.sendText(msg.to,"He declined all invitations")
 
-	    elif msg.text in ["TD out"]:
+	    elif msg.text in ["Ghost out"]:
 	      if msg.from_ in admin:
 		if msg.toType == 2:
 		    ginfo = cl.getGroup(msg.to)
@@ -3372,7 +3370,7 @@ def bot(op):
 		    except:
 			pass
 
-            elif msg.text in ["TD bye"]:
+            elif msg.text in ["Ghost bye"]:
 	      if msg.from_ in admin:
                 if msg.toType == 2:
                     ginfo = cl.getGroup(msg.to)
@@ -3426,15 +3424,15 @@ def bot(op):
                 print "[Command] Kedapkedip"
                         
                         
-            elif "TD:Bc " in msg.text:
-                bctxt = msg.text.replace("TD:Bc ", "")
+            elif "Ghost:Bc " in msg.text:
+                bctxt = msg.text.replace("Ghost:Bc ", "")
                 a = cl.getAllContactIds()
                 for manusia in a:
                     cl.sendText(manusia, (bctxt))
 
             elif "TD:Bc " in msg.text:
               if msg.from_ in admin:
-                bctxt = msg.text.replace("TD:Bc ", "")
+                bctxt = msg.text.replace("Ghost:Bc ", "")
                 b = ki.getAllContactIds()
                 for manusia in b:
                     ki.sendText(manusia, (bctxt))
@@ -3477,7 +3475,7 @@ def bot(op):
                             cl.sendText(msg.to,"Mungkin saya tidak di dalaam grup itu")
                             
                             
-            elif msg.text in ["TD leaveAllGc"]:
+            elif msg.text in ["Ghost leaveAllGc"]:
               if msg.from_ in admin:
                 gid = cl.getGroupIdsJoined()
                 gid = ki.getGroupIdsJoined()
@@ -3512,11 +3510,11 @@ def bot(op):
                     except Exception as e:
                         kc.sendText(msg.to, str (e))
 
-            elif "TD copy @" in msg.text:
+            elif "Ghost copy @" in msg.text:
 	      if msg.from_ in admin:
                 if msg.toType == 2:
                     print "[Copy]"
-                    _name = msg.text.replace("TD copy @","")
+                    _name = msg.text.replace("Ghost copy @","")
                     _nametarget = _name.rstrip(' ')
                     gs = cl.getGroup(msg.to)
                     targets = []
@@ -3533,11 +3531,11 @@ def bot(op):
                             except Exception as e:
                                 print e
                                 
-	    elif "TD clone @" in msg.text:
+	    elif "Ghost clone @" in msg.text:
 	      if msg.from_ in admin: 
 		if msg.toType == 2:
                     print "[Copy]"
-		    _name = msg.text.replace("TD clone @","")
+		    _name = msg.text.replace("Ghost clone @","")
                     _nametarget = _name.rstrip(' ') 
 		    gs = kc.getGroup(msg.to)
                     targets = [] 
@@ -3732,15 +3730,15 @@ def bot(op):
                                 except:
                                     cl.sendText(msg.to,"error")
 
-	    elif "TD del" in msg.text:
+	    elif "Ghost del" in msg.text:
 	      if msg.from_ in admin:
                 wait["blacklist"] = {}
                 cl.sendText(msg.to,"Blacklist user succes dibersihkan")
 
-            elif "TD ban" in msg.text:
+            elif "Ghost ban" in msg.text:
               if msg.toType == 2:
                   if msg.from_ in admin:                                        
-                       ban0 = msg.text.replace("TD ban","")
+                       ban0 = msg.text.replace("Ghost ban","")
                        ban1 = ban0.lstrip()
                        ban2 = ban1.replace("@","")
                        ban3 = ban2.rstrip()
@@ -3962,7 +3960,7 @@ def bot(op):
                             pass
                 print "[Command]dp executed"
 #-----------------------------------------------
-            elif msg.text in ["TD absen"]:
+            elif msg.text in ["Ghost absen"]:
 	      if msg.from_ in admin:
 		cl.sendText(msg.to,"Hadirr")              
                 ki.sendText(msg.to,"Hadiirrr")
