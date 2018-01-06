@@ -55,7 +55,7 @@ sys.setdefaultencoding('utf-8')
 
 helpMessage ="""
 
-~~~🔰👻GHOST HUNTER👻🔰~~~
+~🔰👻GHOST HUNTER👻🔰~~~
 
 
 👻🔰GHOST HUNTER TEAM🔰👻
@@ -77,8 +77,8 @@ helpMessage ="""
 ╔═════════════
 ╠ 🔰👻Ghost absen
 ╠ 🔰👻Say 「Text」
-╠ 🔰👻Ghost in「Alljoin」
-╠ 🔰👻Ghost out「All leave」
+╠ 🔰👻Ghostin
+╠ 🔰👻Ghost out
 ╠ 🔰👻Ghost copy 「@」
 ╠ 🔰👻Ghost kembali 「@」
 ╠ 🔰👻Ghost kick「Mid」
@@ -296,17 +296,17 @@ def bot(op):
                             cl.acceptGroupInvitation(op.param1)
 			    G.preventJoinByTicket = False
 			    cl.updateGroup(G)
-			    Ticket = cl.reissueGroupTicket(op.param1)
-			    ki.acceptGroupInvitationByTicket(op.param1,Ticket)
-			    kk.acceptGroupInvitationByTicket(op.param1,Ticket)
-			    kc.acceptGroupInvitationByTicket(op.param1,Ticket)
-			    kb.acceptGroupInvitationByTicket(op.param1,Ticket)
-			    kd.acceptGroupInvitationByTicket(op.param1,Ticket)
-			    ke.acceptGroupInvitationByTicket(op.param1,Ticket)
-			    kg.acceptGroupInvitationByTicket(op.param1,Ticket)
-			    kh.acceptGroupInvitationByTicket(op.param1,Ticket)
-			    G.preventJoinByTicket = True
-			    cl.updateGroup(G)
+			    #Ticket = cl.reissueGroupTicket(op.param1)
+			    #ki.acceptGroupInvitationByTicket(op.param1,Ticket)
+			    #kk.acceptGroupInvitationByTicket(op.param1,Ticket)
+			    #kc.acceptGroupInvitationByTicket(op.param1,Ticket)
+			    #kb.acceptGroupInvitationByTicket(op.param1,Ticket)
+			    #kd.acceptGroupInvitationByTicket(op.param1,Ticket)
+			    #ke.acceptGroupInvitationByTicket(op.param1,Ticket)
+			    #kg.acceptGroupInvitationByTicket(op.param1,Ticket)
+			    #kh.acceptGroupInvitationByTicket(op.param1,Ticket)
+			    #G.preventJoinByTicket = True
+			    #cl.updateGroup(G)
                     else:
                         cl.acceptGroupInvitation(op.param1)
                 elif wait["autoCancel"]["on"] == True:
@@ -1281,7 +1281,7 @@ def bot(op):
         if op.type == 25:
             msg = op.message
             if msg.contentType == 13:
-            	if wait["TDinvite"] == True:
+            	if wait["Ghostinvite"] == True:
                      if msg.from_ in admin:
                          _name = msg.contentMetadata["displayName"]
                          invite = msg.contentMetadata["mid"]
@@ -1306,18 +1306,18 @@ def bot(op):
                                      cl.findAndAddContactsByMid(target)
                                      cl.inviteIntoGroup(msg.to,[target])
                                      cl.sendText(msg.to,"Succes : \n➡" + _name)
-                                     wait["TDinvite"] = False
+                                     wait["Ghostinvite"] = False
                                      break
                                  except:
                                      try:
                                          ki.findAndAddContactsByMid(invite)
                                          ki.inviteIntoGroup(op.param1,[invite])
-                                         wait["TDinvite"] = False
+                                         wait["Ghostinvite"] = False
                                      except:
                                          cl.sendText(msg.to,"Sorry i can't invite this contact")
-                                         wait["TDinvite"] = False
+                                         wait["Ghostinvite"] = False
                                          break
-                if wait["akaInvite"] == True:
+                if wait["ghostInvite"] == True:
                      if msg.from_ in admin:
                          _name = msg.contentMetadata["displayName"]
                          invite = msg.contentMetadata["mid"]
@@ -3129,7 +3129,7 @@ def bot(op):
                                     kk.sendText(msg.to,"Bye")
 
 #-----------------------------------------------                   
-            elif msg.text in ["Ghost in"]:
+            elif msg.text in ["Ghostin"]:
 	      if msg.from_ in admin:
                         G = cl.getGroup(msg.to)
                         ginfo = cl.getGroup(msg.to)
