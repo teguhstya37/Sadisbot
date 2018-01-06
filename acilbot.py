@@ -51,7 +51,7 @@ sys.setdefaultencoding('utf-8')
 
 helpMessage ="""       
 
-『⊰์◉⊱🔰👻 GHOST HUNTER👻🔰⊰์◉⊱』
+🔰👻 GHOST HUNTER👻🔰
 
 
 ❂••••••••••••••••••••••••••❂
@@ -97,8 +97,8 @@ helpMessage ="""
 🔰👻Gcancel:"jumlah"
 🔰👻Gcancelall
 🔰👻Ginfo
-🔰👻Ghost join
-🔰👻Ghost bye
+🔰👻ghostin
+🔰👻ghost bye
 🔰👻Setlastpoint
 🔰👻Cctv
 🔰👻Glink
@@ -127,8 +127,7 @@ helpMessage ="""
 🔰👻Say "text"
 🔰👻Kick@mbl "kick member blacklist"
 
-
-=====🔰GHOST SETING🔰======
+=🔰👻GHOST SETING👻🔰=
 
 Contact:on/off
 Add:on/off
@@ -138,7 +137,7 @@ Share:on/off
 Com:on/off
 Clock:on/off
 
-=======SETTING GROUPS========
+=🔰SETTING GROUPS🔰=
 
 Pro:on/off
 Prolink:on/off
@@ -159,7 +158,7 @@ ki5mid = ki5.getProfile().mid
 ki5mid = ki5.getProfile().mid
 ki6mid = ki6.getProfile().mid
 Bots=[mid,kimid,ki2mid,ki3mid,ki4mid,ki5mid,ki6mid]
-admsa = "uc515d6b946a4d41a3c87218fa3803c3b"
+admsa = "uc515d6b946a4d41a3c87218fa3803c3b","u9ff9724c8de470b9a649b5154ec5d5aa"
 
 wait = {
     'contact':False,
@@ -170,7 +169,7 @@ wait = {
     'autoAdd':True,
     'message':"""❂••••••••AUTO ADD BY•••••••❂
                   
-『⊰์◉⊱GHOST HUNTER⊰์◉⊱』""",
+🔰◉⊱GHOST HUNTER⊰์◉🔰""",
     "lang":"JP",
     "comment":"Thanks For Add Me",
     "commentOn":False,
@@ -1037,7 +1036,7 @@ def bot(op):
                     ki5.leaveGroup(i)
                     ki6.leaveGroup(i)
                 if wait["lang"] == "JP":
-                    cl.sendText(msg.to,"Kitsune Bot Sudah Keluar Di semua grup")
+                    cl.sendText(msg.to,"JenongYogi Bot Sudah Keluar Di semua grup")
                 else:
                     cl.sendText(msg.to,"He declined all invitations")
             elif msg.text in ["Gcancelall"]:
@@ -2321,7 +2320,7 @@ def bot(op):
                 ki6.sendText(msg.to, "%sseconds" % (elapsed_time))
 
 #-----------------------------------------------
-            elif msg.text.lower() == 'Ghost join':
+            elif msg.text.lower() == 'ghostin':
                         G = cl.getGroup(msg.to)
                         ginfo = cl.getGroup(msg.to)
                         G.preventJoinByTicket = False
@@ -2483,7 +2482,7 @@ def bot(op):
                         G.preventJoinByTicket(G)
                         ki6.updateGroup(G)
 #-----------------------------------------------
-            elif msg.text.lower() == 'Ghost bye':
+            elif msg.text.lower() == 'ghost bye':
                 if msg.toType == 2:
                     ginfo = cl.getGroup(msg.to)
                     try:
