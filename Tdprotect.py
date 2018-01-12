@@ -293,9 +293,9 @@ def bot(op):
                         if len(G.members) <= wait["autoCancel"]["members"]:
                             cl.rejectGroupInvitation(op.param1)
                         else:
-                            #cl.acceptGroupInvitation(op.param1)
-			    #G.preventJoinByTicket = False
-			    #cl.updateGroup(G)
+                            cl.acceptGroupInvitation(op.param1)
+			    G.preventJoinByTicket = False
+			    cl.updateGroup(G)
 			    #Ticket = cl.reissueGroupTicket(op.param1)
 			    #ki.acceptGroupInvitationByTicket(op.param1,Ticket)
 			    #kk.acceptGroupInvitationByTicket(op.param1,Ticket)
