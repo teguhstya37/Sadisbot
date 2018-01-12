@@ -945,7 +945,7 @@ def bot(op):
                 if wait["protect"] == True: md+="🔐 Protect:on 🔓\n"
                 else:md+="🔐 Protect:off 🔒\n"
                 if wait["linkprotect"] == True: md+="🔐 Link Protect:on 🔓\n"
-                else:md+="🔐 Link Protect:off🔒\n"EoGEalZAPklILnoVUvWb.XrxwUuAK1bO8HYgpO4a8oW.SdSCqt+aRLoPgniQ2WItexM/lFuD0jqterq9auFLu8Y=
+                else:md+="🔐 Link Protect:off🔒\n"
                 if wait["inviteprotect"] == True: md+="🔐 Invitation Protect:on🔓\n"
                 else:md+="🔐 Invitation Protect:off🔒\n"
                 if wait["cancelprotect"] == True: md+"🔐 CancelProtect:on 🔓\n"
