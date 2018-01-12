@@ -6,7 +6,7 @@ from datetime import datetime
 import time,random,sys,re,os,json,subprocess,codecs,threading,glob
 
 cl = LINETCR.LINE() 
-cl.login(token="Eo6prDFvtLMuF924k7bb.XrxwUuAK1bO8HYgpO4a8oW.YkAVD009NCeJrknDUopIRdQRWN+xY3QBSgG2t9z7BVs=")
+cl.login(token="EoGEalZAPklILnoVUvWb.XrxwUuAK1bO8HYgpO4a8oW.SdSCqt+aRLoPgniQ2WItexM/lFuD0jqterq9auFLu8Y=")
 cl.loginResult()
 
 ki = LINETCR.LINE() 
@@ -928,28 +928,28 @@ def bot(op):
                         cl.sendText(msg.to,"Off👈")
             elif msg.text.lower() == 'set':
                 md = ""
-                if wait["contact"] == True: md+="💣 Contact:on 🔓\n"
-                else: md+="💣 Contact:off🔓\n"
-                if wait["autoJoin"] == True: md+="💣 Auto Join:on 🔓\n"
-                else: md +="💣 Auto J/oin:off🔓\n"
-                if wait["autoCancel"]["on"] == True:md+="💣 Auto cancel:" + str(wait["autoCancel"]["members"]) + "🔓\n"
-                else: md+= "💣 Group cancel:off 🔓\n"
-                if wait["leaveRoom"] == True: md+="💣 Auto leave:on 🔓\n"
-                else: md+="💣 Auto leave:off 🔓\n"
-                if wait["timeline"] == True: md+="💣 Share:on 🔓\n"
-                else:md+="💣 Share:off 🔓\n"
-                if wait["autoAdd"] == True: md+="💣 Auto add:on 🔓\n"
-                else:md+="💣 Auto add:off 🔓\n"
-                if wait["commentOn"] == True: md+="💣 Auto komentar:on 🔓\n"
-                else:md+="💣 Auto komentar:off 🔓\n"
-                if wait["protect"] == True: md+="🔰 Protect:on 🔓\n"
-                else:md+="🔰 Protect:off 🔒\n"
-                if wait["linkprotect"] == True: md+="🔰Link Protect:on 🔓\n"
-                else:md+="🔰 Link Protect:off🔒\n"
-                if wait["inviteprotect"] == True: md+="🔰Invitation Protect:on🔓\n"
-                else:md+="🔰 Invitation Protect:off🔒\n"
-                if wait["cancelprotect"] == True: md+"🔰 CancelProtect:on 🔓\n"
-                else:md+="🔰 Cancel Protect:off 🔒\n"
+                if wait["contact"] == True: md+="🔐 Contact:on 🔓\n"
+                else: md+="🔐 Contact:off🔓\n"
+                if wait["autoJoin"] == True: md+="🔐 Auto Join:on 🔓\n"
+                else: md +="🔐 Auto J/oin:off🔓\n"
+                if wait["autoCancel"]["on"] == True:md+="🔐 Auto cancel:" + str(wait["autoCancel"]["members"]) + "🔓\n"
+                else: md+= "🔐 Group cancel:off 🔓\n"
+                if wait["leaveRoom"] == True: md+="🔐 Auto leave:on 🔓\n"
+                else: md+="🔐 Auto leave:off 🔓\n"
+                if wait["timeline"] == True: md+="🔐 Share:on 🔓\n"
+                else:md+="🔐 Share:off 🔓\n"
+                if wait["autoAdd"] == True: md+="🔐 Auto add:on 🔓\n"
+                else:md+="🔐 Auto add:off 🔓\n"
+                if wait["commentOn"] == True: md+="🔐 Auto komentar:on 🔓\n"
+                else:md+="🔐 Auto komentar:off 🔓\n"
+                if wait["protect"] == True: md+="🔐 Protect:on 🔓\n"
+                else:md+="🔐 Protect:off 🔒\n"
+                if wait["linkprotect"] == True: md+="🔐 Link Protect:on 🔓\n"
+                else:md+="🔐 Link Protect:off🔒\n"EoGEalZAPklILnoVUvWb.XrxwUuAK1bO8HYgpO4a8oW.SdSCqt+aRLoPgniQ2WItexM/lFuD0jqterq9auFLu8Y=
+                if wait["inviteprotect"] == True: md+="🔐 Invitation Protect:on🔓\n"
+                else:md+="🔐 Invitation Protect:off🔒\n"
+                if wait["cancelprotect"] == True: md+"🔐 CancelProtect:on 🔓\n"
+                else:md+="🔐 Cancel Protect:off 🔒\n"
                 cl.sendText(msg.to,md)
 #                msg.contentType = 13
 #                msg.contentMetadata = {'mid': admsa}
