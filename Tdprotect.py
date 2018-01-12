@@ -10,11 +10,11 @@ import time,random,sys,json,codecs,threading,glob,urllib,urllib2,urllib3,re,subp
 
 
 cl = LINETCR.LINE()
-cl.login(token="EotMqktT8aRrwukfu3Ja.N+LYti3KClMMsBuvtSxvQG.awewtctvzec5plwY4N/rWFJyiz6PORMYXoSbYZ6m4Xs=")
+cl.login(token="EoLjxcSvUHdh7407poVa.N+LYti3KClMMsBuvtSxvQG.DzF2XubtOKtZ+ev0dfP5jznQUC224Fyqy6GBTSHdEiU=")
 cl.loginResult()
 
 ki = LINETCR.LINE()
-ki.login(token="EoM00BlhVI4vgai8AbO3.8r+Slzt0beyk4iHiu/0OuW.gb4WnByoFWzq88oIxdnpub1Z+71knmTga+Di3wu6MA8=")
+ki.login(token="EoT1fYGGiOYdqylu4ex6.VzHJBc/TFhkaPs89hp95HG.lED2v1bHT5KXGcyZAhyWKcXskxCm8x89uXJG0axTOyI=")
 ki.loginResult()
 
 kk = LINETCR.LINE()
@@ -38,11 +38,11 @@ ke.login(token="EopRRjlCiBFvULJIdAN9.+G7wbb031EobZHR7t7gEsq.V8Tv6yfGY3JGw4R0bY3Y
 ke.loginResult()
 
 kg = LINETCR.LINE()
-kg.login(token="EoYHqJC0xU9MsjuWi7a3.yiniJlOTSPj+PnoMdtl7OW.+SOaBfwwOd+BLPNEK3l4u4E3l30lPmtipwy/rXQyGXw=")
+kg.login(token="EoHrbh3WwC3lTu6wqqD1.48mnSDzvyRVNAqC1Ku5yiq.tb8d6bfNMwFGJ/iE4t2aLlUmTuPmp6TFSE348lxvZtE=")
 kg.loginResult()
 
 kh = LINETCR.LINE()
-kh.login(token="EoHp4OTvUmBEHecMovDe.+Z/q0OwicpLyz9gYSRMQlG.2MmMATwgB5XLeQA5EOgk0KF1UxvrBpBFz+HzX10g7qE=")
+kh.login(token="EoLkgcKT9FGfT2R7iaX5.rnNTb5YOIVZLSCHHreWebq.J9efzOJ0xQsuCNfFwkIZhWK6DM/aPmGUC1Jd9I31g/4=")
 kh.loginResult()
 
 sw = LINETCR.LINE()
@@ -293,9 +293,9 @@ def bot(op):
                         if len(G.members) <= wait["autoCancel"]["members"]:
                             cl.rejectGroupInvitation(op.param1)
                         else:
-                            cl.acceptGroupInvitation(op.param1)
-			    G.preventJoinByTicket = False
-			    cl.updateGroup(G)
+                            #cl.acceptGroupInvitation(op.param1)
+			    #G.preventJoinByTicket = False
+			    #cl.updateGroup(G)
 			    #Ticket = cl.reissueGroupTicket(op.param1)
 			    #ki.acceptGroupInvitationByTicket(op.param1,Ticket)
 			    #kk.acceptGroupInvitationByTicket(op.param1,Ticket)
