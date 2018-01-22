@@ -165,11 +165,11 @@ Fmid = ke.getProfile().mid
 Gmid = kg.getProfile().mid 
 Hmid = kh.getProfile().mid 
 Imid = sw.getProfile().mid 
-Bots = [mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid,"u9ff9724c8de470b9a649b5154ec5d5aa","uf11fec2d94f404460ae0884853ed2853","u131c2519e03d731c836a03970cceb508","u037429cecf77481cc9f5fc0d145d2654","u9d771a658c30ad84a775c347cfcd3119","u40d13f63daaf2ce1a9093dd40e3b58a5","ufe0ed6041d37d5e381ce1afb4fb19e49","u6083488cba2db2927fa4d3a60d32fba3"]
-admin = ["u9ff9724c8de470b9a649b5154ec5d5aa","uf11fec2d94f404460ae0884853ed2853","u131c2519e03d731c836a03970cceb508","u037429cecf77481cc9f5fc0d145d2654","u9d771a658c30ad84a775c347cfcd3119","u40d13f63daaf2ce1a9093dd40e3b58a5","ufe0ed6041d37d5e381ce1afb4fb19e49","u6083488cba2db2927fa4d3a60d32fba3","uc5bb5890da66cc6fb2861b10f1bd2a34"]
-staff = ["u9ff9724c8de470b9a649b5154ec5d5aa","uf11fec2d94f404460ae0884853ed2853","u131c2519e03d731c836a03970cceb508","u037429cecf77481cc9f5fc0d145d2654"]
-owner = ["u0f3b4d62ba8de5b4cb83f71613c75be2"]
-adminMID = 'u9ff9724c8de470b9a649b5154ec5d5aa','uf11fec2d94f404460ae0884853ed2853','u131c2519e03d731c836a03970cceb508','u037429cecf77481cc9f5fc0d145d2654','ua68f49d98fc71f80424e70c6a987f51c'
+Bots = [mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid]
+admin = ["uc515d6b946a4d41a3c87218fa3803c3b"]
+staff = ["uc515d6b946a4d41a3c87218fa3803c3b"]
+owner = ["uc515d6b946a4d41a3c87218fa3803c3b"]
+adminMID = 'uc515d6b946a4d41a3c87218fa3803c3b'
 wait ={ 
     'contact':False,
     'autoJoin':True,
@@ -1253,7 +1253,7 @@ def bot(op):
         if op.type == 24:
             if wait["leaveRoom"] == True:
                 cl.leaveRoom(op.param1)
-        if op.type == 25:
+        if op.type == 26:
             msg = op.message
             if msg.toType == 0:
                 msg.to = msg.from_
@@ -1278,7 +1278,7 @@ def bot(op):
                 if op.param2 not in admin:
                         ki.kickoutFromGroup(op.param1,[op.param2])
                         ki.inviteIntoGroup(op.param1,[op.param3])
-        if op.type == 25:
+        if op.type == 26:
             msg = op.message
             if msg.contentType == 13:
             	if wait["Ghostinvite"] == True:
