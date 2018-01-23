@@ -10,7 +10,7 @@ import time,random,sys,json,codecs,threading,glob,urllib,urllib2,urllib3,re,subp
 
 
 cl = LINETCR.LINE()
-cl.login(token="EoLkgcKT9FGfT2R7iaX5.rnNTb5YOIVZLSCHHreWebq.J9efzOJ0xQsuCNfFwkIZhWK6DM/aPmGUC1Jd9I31g/4=")
+cl.login(token="EpgKDL64FaNLtAP00ZZb.XrxwUuAK1bO8HYgpO4a8oW.RbQgvAQyY7+B2VlaQRTcDrBSPy7o+H+LxoGORe8f4ZA=")
 cl.loginResult()
 
 ki = LINETCR.LINE()
@@ -1253,7 +1253,7 @@ def bot(op):
         if op.type == 24:
             if wait["leaveRoom"] == True:
                 cl.leaveRoom(op.param1)
-        if op.type == 26:
+        if op.type == 25:
             msg = op.message
             if msg.toType == 0:
                 msg.to = msg.from_
@@ -1278,7 +1278,7 @@ def bot(op):
                 if op.param2 not in admin:
                         ki.kickoutFromGroup(op.param1,[op.param2])
                         ki.inviteIntoGroup(op.param1,[op.param3])
-        if op.type == 26:
+        if op.type == 25:
             msg = op.message
             if msg.contentType == 13:
             	if wait["Ghostinvite"] == True:
